@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<style>
+		body{background-color:#332F2F;
+			;}
+		h1{color:#F9F4F4;
+		   font-size: 20px;
+		    text-align: center;}
+		p{color:#F8E8E8;
+		  display:inline-block;}
+		lable{width:30%;
+		     display:inline-block;}
+		.cla{width:25%;
+		display:inline-block;}
+		.clb{width:10%;
+		display:inline-block;}
+		form{width:75%;
+		    margin:auto;}
+		[type="text3"]{position:relative;
+			left:18px;}
+		[type="radio"]{position: relative;
+		  left:10%;}
+		#bax{width:10%;
+		   display:inline-block;
+		   position: relative;
+		left:10%;} 
+		#baozhuang{width:8%;
+		     display:inline-block;
+		position: relative;
+		left:10%;}
+		#huowu{width:80%;
+		display:inline-block;}
+		[type="text6"]{width:500px;
+		display:inline-block;}
+		[type="text7"]{width:40%;}
+		#liang{width:20%;
+		display:inline-block;}
+		[type="submit"]{position: relative;
+			left:43%;
+		margin-top: 30px;}
+		[type="reset"]{position: relative;
+			left:43%;
+		margin-top: 30px;}
+	</style>
+</head>
+	
+
+<body>
+	<h1>增加快递信息</h1>
+	<form>
+	<fieldset>
+		<legend><p>发货单</p></legend>
+		<div class="clb"></div>
+	<lable><p>发件人：</p><input type="text1" name="fajianren"></lable>
+		<div class="cla"></div>
+	<lable><p>地址：</p><input type="text2" name="dizhi"></lable>
+		<div class="clb"></div>
+	<lable><p>电话：</p><input type="text3" name="dianhua"></lable>
+		<div class="cla"></div>
+	<lable><p>邮编：</p><input type="text4" name="youbian"></lable>
+	</fieldset>
+		<fieldset>
+			<legend><p>收货单</p></legend>
+			<div class="clb"></div>
+	<lable><p>收件人：</p><input type="text1" name="shoujianren"></lable>
+			<div class="cla"></div>
+	<lable><p>地址：</p><input type="text2" name="dizhi"></lable>
+			<div class="clb"></div>
+	<lable><p>电话：</p><input type="text3" name="dianhua"></lable>
+			<div class="cla"></div>
+	<lable><p>邮编：</p><input type="text4" name="youbian"></lable>
+			<div class="clb"></div>
+			<lable><p>地区：</p><input type="text5" name="diqu"></lable>
+			
+			<br><lable id="bax"><p>包装：</p></lable></br>
+			<input type="radio" name="baozhuang" value="纸箱" id="zhixiang">
+			<lable id="baozhuang" for="zhixiang">纸箱</lable>
+		<input type="radio" name="baozhuang" value="木箱" id="muxiang">
+			<lable id="baozhuang" for="muxiang">木箱</lable>
+		<input type="radio" name="baozhuang" value="快递袋" id="kuaididai">
+			<lable id="baozhuang" for="kuaididai">快递袋</lable>
+		<input type="radio" name="baozhuang" value="其他" id="qita">
+			<lable id="baozhuang"  for="qita">其他</lable>
+		
+		<br><lable id="bax"><p>付款方式：</p></lable></br>
+			<input type="radio" name="baozhuang" value="现金" id="xianjin">
+			<lable id="baozhuang" for="xianjin">现金</lable>
+		<input type="radio" name="baozhuang" value="支付宝" id="zhifubao">
+			<lable id="baozhuang" for="zhifubao">支付宝</lable>
+		<input type="radio" name="baozhuang" value="网银" id="wangyin">
+			<lable id="baozhuang" for="wangyin">网银</lable>
+		<input type="radio" name="baozhuang" value="ATM" id="ATM">
+			<lable id="baozhuang"  for="ATM">ATM</lable>
+	</fieldset>
+	
+	
+	<fieldset>
+		<legend><p>货物名称</p></legend>
+		<div class="clb"></div>
+	<lable id="huowu"><p>货物名称：</p><input type="text6" name="huowu"></lable>
+	<div class="clb"></div>
+	<lable id="liang"><p>数量：</p><input type="text7" name="shuliang"></lable>
+		<lable id="liang"><p>重量：</p><input type="text7" name="zhongliang"></lable>
+		<lable><p>发货之间：</p><input type="text8" name="fahuo"></lable>
+	</fieldset>
+	<input type="submit" name="queding" id="queding">
+	<input type="reset" name="queding" id="queding">
+	
+</form>
+</body>
+</html>
